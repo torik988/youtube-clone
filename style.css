@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial, sans-serif;
+    box-sizing: border-box;
+    color: #0f0f0f;
+}
+/* Navbar Start */
+
+.navbar{
+    position: fixed;
+    z-index: 2024;
+    height: 56px;
+    width: 100%;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+/* header-box1 start */
+
+.header-box1{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.baar-menu{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.logo{
+    background-image: url(Img/full-logo.jpg);
+    height: 40px;
+    filter: contrast(2);
+    width: 129px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(0.9);
+}
+
+/* Header Box2 Start  */
+
+.header-box2{
+    max-width: 732px;
+    min-width: 50px;
+    width: 100%;
+}
+
+.search-box-full{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+}
+
+.com-search input{
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    color: #111111;
+    width: 100%;
+    background-color: #ffffff;
+    font-size: large;
+    padding: 0px 13px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.com-search input:focus{
+    outline: none;
+}
+
+.com-search input::placeholder{
+    font-size: 0.9em;
+}
+
+.search-box-input{
+    max-width: 536px;
+    width: 100%;
+}
+
+.search-box-button{
+    width: 64px;
+    height: 40px;
+    padding: 1px 6px;
+    color: #11111185;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 20px;
+}
+
+.search-box-mic{
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* Header Box3 start  */
+
+.header-box3{
+    height: 40px;
+    width: 255px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.box3-com{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Nav bar End  */
+
+
+/* Main content Start  */
+
+main{
+    display: flex;
+}
+
+/* first section of scroll  */
+
+
+.section-scroll{
+    position: fixed;
+    background-color: white;
+    min-width: 200px;
+    max-width: 240px;
+    width: 100%;
+    color: #000000;
+    height: 91vh;
+    scroll-behavior: smooth;
+    padding: 12px;
+    overflow-y:scroll ;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    position: sticky;
+    margin-top: 56px;
+}
+
+.section-scroll:hover{
+    scrollbar-color: darkgrey transparent;
+}
+
+.section-scroll-common{
+    padding: 0px 12px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #0f0f0f;
+}
+
+.section-scroll-common:hover{
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.section-scroll-common1{
+    width: 25%;
+    font-size: 1.1em;
+}
+
+.section-scroll-common2{
+    width: 75%;
+    font-size: 0.9em;
+}
+
+hr{
+    margin:12px 0px;
+    border-top: 0.5px solid #e4e4e4;
+}
+
+.carry-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(Img/carry.jpg);
+    background-size: cover;
+}
+
+.yash-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(Img/yklogo.jpg);
+    background-size: cover;
+}
+
+.apna-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(Img/apna-clg.jpg);
+    background-size: cover;
+}
+
+.rbh-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(Img/rbh.jpg);
+    background-size: cover;
+}
+
+
+.rj-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-image: url(Img/rj-13.jpg);
+    background-size: cover;
+}
+
+.section-scroll a{
+    text-decoration: none;
+}
+
+.section-scroll-heading{
+    padding: 0px 12px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #0f0f0f;
+}
+
+/* section main video content start  */
+
+.section-content{
+    height: 91vh;
+    width: 100vw;
+    margin-top: 56px;
+}
+
+/* upline start  */
+
+.section-upline{
+    height: 56px;
+    width: 100%;
+    max-width: 80vw;
+    padding: 0px 24px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.com-upline-content{
+    padding: 0px 12px;
+    color: #0f0f0f;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    height: 32px;
+    margin: 6px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.com-upline-content:hover{
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.upline-blur{
+    height: 56px;
+    width: 50px;
+    background-image: linear-gradient( 
+        to right,
+        transparent,
+        white,
+        white
+    );
+    position: absolute;
+    right: 0px;
+}
+
+.main-hero{
+    height: 81vh;
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-color: transparent transparent;
+    background-color: white;
+}
+
+.feature-img{
+    height: 260px;
+    width: 100%;
+    background-image: url(Img/feature.jpeg);
+    background-size: cover;
+}
+
+.feature-img p{
+    padding-top: 90px;
+    padding-left: 70px;
+    width: fit-content;
+    animation: chotabada 2s linear 0s infinite alternate;
+}
+
+.feature-img h2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 2em;
+    width: fit-content;
+    animation: chotabada 2s linear 0s infinite alternate;
+}
+
+
+@keyframes chotabada{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 10deg;
+    }
+}
+
+.hero-video{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hero-video a{
+    text-decoration: none;
+    margin: 0px 16px 10px 0px;
+}
+
+.hero-video-big-content-box{
+    width: 342px;
+    height: 292px;
+}
+
+.hero-video-img-com{
+    height: 192px;
+    width: 342px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.yt-img-box1{
+    background-image: url(Img/video/13405023_5214520.jpg);
+}
+
+.yt-img-box2{
+    background-image: url(Img/video/1.jpg);
+}
+
+.yt-img-box3{
+    background-image: url(Img/video/2.jpg);
+}
+
+.yt-img-box4{
+    background-image: url(Img/video/3.jpg);
+}
+
+.yt-img-box5{
+    background-image: url(Img/video/4.jpg);
+}
+
+.yt-img-box6{
+    background-image: url(Img/video/5.jpg);
+}
+
+.yt-img-box7{
+    background-image: url(Img/video/6.jpg);
+}
+
+.yt-img-box8{
+    background-image: url(Img/video/7.jpg);
+}
+
+.yt-img-box9{
+    background-image: url(Img/video/8.jpg);
+}
+
+.hero-video-img-com p{
+    background-color: #0f0f0f;
+    color: #e2e2e2;
+    margin: 5px 6px;
+    padding: 0px 3px;
+    font-size: 1em;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.hero-video-content{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.hero-video-channel{
+    width: fit-content;
+    height: 100%;
+}
+
+.hero-logo{
+    margin: 12px 12px 0px 0px;
+    height: 36px;
+    width: 36px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.yt-logo-box1{
+    background-image: url(Img/apna-clg.jpg);
+}
+
+.yt-logo-box2{
+    background-image: url(Img/carry.jpg);
+}
+
+.yt-logo-box3{
+    background-image: url(Img/rbh.jpg);
+}
+
+.yt-logo-box4{
+    background-image: url(Img/rj-13.jpg);
+}
+
+.yt-logo-box5{
+    background-image: url(Img/yklogo.jpg);
+}
+
+.hero-video-description{
+    height: 100%;
+    width: 100%;
+    padding: 12px 24px 0px 0px;
+}
+
+.hero-video-description p{
+    font-weight: 200;
+    line-height: 130%;
+}
