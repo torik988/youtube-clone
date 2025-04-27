@@ -369,40 +369,54 @@ hr{
 }
 
 .yt-img-box1{
-    background-image: url(Img/video/13405023_5214520.jpg);
-}
-
-.yt-img-box2{
     background-image: url(Img/video/1.jpg);
 }
 
-.yt-img-box3{
+.yt-img-box2{
     background-image: url(Img/video/2.jpg);
 }
 
-.yt-img-box4{
+.yt-img-box3{
     background-image: url(Img/video/3.jpg);
 }
 
-.yt-img-box5{
+.yt-img-box4{
     background-image: url(Img/video/4.jpg);
 }
 
-.yt-img-box6{
+.yt-img-box5{
     background-image: url(Img/video/5.jpg);
 }
 
-.yt-img-box7{
+.yt-img-box6{
     background-image: url(Img/video/6.jpg);
 }
 
-.yt-img-box8{
+.yt-img-box7{
     background-image: url(Img/video/7.jpg);
 }
 
-.yt-img-box9{
+.yt-img-box8{
     background-image: url(Img/video/8.jpg);
 }
+
+.yt-img-box9{
+    background-image: url(Img/video/9.jpg);
+}
+
+.yt-img-box10{
+    background-image: url(Img/video/10.jpg);
+}
+
+.yt-img-box11{
+    background-image: url(Img/video/11.jpg);
+}
+
+.yt-img-box12{
+    background-image: url(Img/video/12.jpg);
+}
+
+
 
 .hero-video-img-com p{
     background-color: #0f0f0f;
@@ -452,6 +466,37 @@ hr{
 .yt-logo-box5{
     background-image: url(Img/yklogo.jpg);
 }
+.yt-logo-box6{
+    background-image: url(Img/apna-clg.jpg);
+}
+
+.yt-logo-box7{
+    background-image: url(Img/cryptobet.jpg);
+}
+
+.yt-logo-box8{
+    background-image: url(Img/rbh.jpg);
+}
+
+.yt-logo-box9{
+    background-image: url(Img/rj-13.jpg);
+}
+
+.yt-logo-box10{
+    background-image: url(Img/beast.jpg);
+}
+.yt-logo-box11{
+    background-image: url(Img/rj-13.jpg);
+}
+
+.yt-logo-box12{
+    background-image: url(Img/yklogo.jpg);
+}
+
+
+
+
+
 
 .hero-video-description{
     height: 100%;
